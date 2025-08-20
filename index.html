@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf--8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Q3 2025 Earnings Report</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Q3 2025 Earnings Report</h2>
+					<p>A Presentation for Our Stakeholders</p>
+					<br>
+					<p><small>Presented by: Technical Consultant</small></p>
+					<p><small>23f2002999@ds.study.iitm.ac.in</small></p>
+					<aside class="notes">
+						Welcome everyone. In this presentation, we'll cover the key financial results and strategic highlights from the third quarter of 2025.
+					</aside>
+				</section>
+
+				<section data-markdown>
+					<textarea data-template>
+						## Key Performance Indicators
+						- Revenue Growth: **+15%** YoY
+						- Net Profit Margin: **22%**
+						- Customer Acquisition: **+12%**
+						---
+						### Regional Performance
+						| Region | Growth | Contribution |
+						|--------|--------|--------------|
+						| AMER   | 18%    | 45%          |
+						| EMEA   | 12%    | 35%          |
+						| APAC   | 21%    | 20%          |
+					</textarea>
+					<aside class="notes">
+						Here you can see our key metrics. The 15% year-over-year revenue growth is particularly strong, driven by the APAC region.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Strategic Initiatives Update</h2>
+					<ul>
+						<li class="fragment">✅ Launched new mobile banking app</li>
+						<li class="fragment">🚀 Expanded into two new markets</li>
+						<li class="fragment">🤝 Secured key strategic partnership</li>
+						<li class="fragment">📈 Digital transformation is on track</li>
+					</ul>
+					<aside class="notes">
+						Let's go through our key achievements this quarter one by one. Each of these initiatives contributed directly to our bottom line.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Risk Model Projection</h2>
+					<p>Our Python model for calculating future value:</p>
+					<pre><code data-line-numbers="1-5" class="language-python">
+def calculate_future_value(pv, r, n):
+  """Calculates the future value of an investment."""
+  fv = pv * ((1 + r) ** n)
+  return fv
+
+# Example: $1000 at 5% interest for 10 years
+future_value = calculate_future_value(1000, 0.05, 10)
+					</code></pre>
+					<aside class="notes">
+						This is a simplified snippet of our risk projection model. It uses standard financial formulas to forecast investment values, which is crucial for our portfolio management.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Financial Formulas</h2>
+					<p>We rely on core financial principles, such as the Future Value (FV) formula:</p>
+					$$ FV = PV (1 + r)^n $$
+					<p>Where:</p>
+					<p>$PV$ = Present Value <br> $r$ = Interest Rate <br> $n$ = Number of Periods</p>
+					<aside class="notes">
+						The formula on this slide is fundamental to our valuation models. It allows us to project the future worth of today's assets.
+					</aside>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/config/
+			// - https://revealjs.com/plugins/
+			Reveal.initialize({
+				hash: true,
+				// This enables the plugins we need
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+		</script>
+	</body>
+</html>
